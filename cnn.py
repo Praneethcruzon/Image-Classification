@@ -61,7 +61,7 @@ class CNN(nn.Module):
                 [
                     (
                         name + " Convolution",
-                        nn.Con2d(
+                        nn.Conv2d(
                             in_channels = in_channels,
                             out_channels = out_channels,
                             kernel_size = 3
